@@ -1,0 +1,7 @@
+gunicorn
+
+requests
+beautifulsoup4
+
+Flask
+Flask-Cache
