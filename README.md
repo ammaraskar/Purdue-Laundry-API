@@ -1,6 +1,6 @@
 # Purdue-Laundry-API
 Scrapes purdue's wash alert/laundry page to provide a JSON API.
-I personally run it on a CloudControl instance [here](https://purdue-laundryapi.rhcloud.com/),
+I personally run it on a CloudControl instance [here](https://purduelaundry.cloudcontrolapp.com/all),
 it should be trivial to run a local
 instance by installing the requirements with `pip install -r requirements.txt`
 and then simply running `python start.py`
