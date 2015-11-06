@@ -12,8 +12,8 @@ app.config.from_object('default_config')
 
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 
-@cache.cached(timeout=10)
-@app.route('/')
+@cache.cached(timeout=30)
+@app.route('/all')
 def scrape_all():
     response = laundry_scraper.scrape_all()
     return jsonify(response)

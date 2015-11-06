@@ -1,8 +1,9 @@
 # Purdue-Laundry-API
 Scrapes purdue's wash alert/laundry page to provide a JSON API.
-I personally run it on a heroku instance, it should be trivial to run a local
+I personally run it on a OpenShift instance [here](https://purdue-laundryapi.rhcloud.com/),
+it should be trivial to run a local
 instance by installing the requirements with `pip install -r requirements.txt`
-and then simply running `start.py`
+and then simply running `python wsgi.py`
 
 
 ## Endpoints
@@ -10,7 +11,7 @@ and then simply running `start.py`
 There is only one endpoint right now, it returns the status of all laundry machines
 in all laundry locations
 
-###  /
+###  /all
 
 Example:
 

@@ -2,4 +2,9 @@
 
 DEBUG = False
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = 80
+
+try:
+    from config import *
+except ImportError:
+    pass
